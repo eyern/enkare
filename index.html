@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enkare Drilling Ltd - Best borehole drilling company in Kenya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body
+    onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+    <!--navbar-->
+    <nav class="navbar glass" style="height: 70px">
+        <span><a href="#home" style="display: flex; align-items: center"><img class="img2" src="./img/mountain.png"
+                    width="40" style="margin: -25px -10px -25px -20px" />
+                <h1 class="logo">&nbsp;Enkare</h1>
+            </a></span>
+        <ul class="nav-links">
+            <li>
+                <a href="#home" id="pri" class="active cir_border">Home</a>
+            </li>
+            <li><a href="#ourstory" id="sec" class="cir_border">About Enkare</a></li>
+            <li>
+                <a href="#services" id="tri" class="cir_border">Our Services</a>
+            </li>
+            <li>
+                <a href="#pros" id="quad" class="cir_border">Pros & Cons</a>
+            </li>
+            <li><a href="#work" id="quint" class="cir_border">Our Work</a></li>
+            <li>
+                <a href="#contact" id="hept" class="cir_border">Contact</a>
+            </li>
+            <li>
+                <div>
+                    <input type="checkbox" class="checkbox dark" id="checkbox" />
+                    <label for="checkbox" class="label">
+                        <i class="fa fa-moon-o"></i>
+                        <i class="fa fa-sun-o"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+            </li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+    <!--navbar-->
+
+    <header id="home">
+        <div class="header-content">
+            <h2 id="quote">Bringing water where it's needed the most - right under your feet💦</h2>
+            <div class="line"></div>
+            <h1>Enkare Drilling Ltd</h1>
+            <a href="#ourstory" class="ctn"
+                onclick='removeall(); $("#quad").css("border", "2px solid whitesmoke"); $("#quad").css("border-radius", "20px");'>Get
+                Started</a>
+        </div>
+    </header>
+
+    <!--tours-->
+    <section class="tours" id="ourstory">
+        <div class="container row">
+            <div class="col content-col">
+                <h1 class="font-color">Welcome to Enkare Drilling Ltd</h1>
+                <div class="line"></div>
+                <p>
+                    We are a dynamic group that handles all your borehole needs, pump systems and solar systems
+                    installation professionally. We aim at delivering high quality services to our clients at affordable
+                    market rates. At Enkare Drilling Ltd, we have the capacity and expertise needed to satisfy all your drilling
+                    requirements.
+                    
+                </p>
+                <a href="tel:+254723855827" class="ctn">Request Quote</a>
+            </div>
+            <div class="image-col">
+                <div class="image-gallery">
+                    <img src="./img/about-3.jpg" alt="" />
+                    <img src="./img/about-2.jpg" alt="" />
+                    <img src="./img/about-1.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        <br /><br /><br /><br />
+    </section>
+    <!--tours-->
+    <!--Events-->
+    <section class="events" id="vision">
+        <div class="container">
+            <!-- <div class="title">
+                <h1 class="dark">From Preliminary Survey, The Drilling Process & Pumping The Water To Your Premises</h1>
+                <div class="line"></div>
+            </div> -->
+            <div class="row">
+                <article class="card col">
+                    <img class="card-img" src="./img/vision.jpg" />
+                    <h4 class="dark">Our Vision</h4>
+                    <p class="font-color">
+                        Leading the industry: At Enkare Drilling Ltd we aim to be recognized as leaders in borehole
+                        drilling services, whether nationally or regionally.
+                    </p>
+                </article>
+                <article class="card col">
+                    <img src="./img/goal.jpg" />
+                    <h4 class="dark">Our Goal</h4>
+                    <p class="font-color">
+                        Investing in the latest drilling technologies and equipment to improve efficiency and quality.
+                        Offering prompt and effective communication and support to customers.
+                    </p>
+                </article>
+                <article class="card col">
+                    <img src="./img/mission.jpg" />
+                    <h4 class="dark">Our Mission</h4>
+                    <p class="font-color">
+                        Our mission at Enkare Drilling Ltd is delivering high-quality services and exceeding customer
+                        expectations. We strive to meet and exceed customer expectations, often prioritizing their needs
+                        and concerns.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <!--Events-->
+    <!--Events-->
+    <section class="events" id="services">
+        <div class="container">
+            <div class="title">
+                <h1 class="dark">Our Services</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <article class="card col">
+                    <h4 class="dark">Borehole Equipping</h4>
+                    <p class="font-color">
+                        Installing necessary equipments, like pumps and accessories, within a drilled borehole to create a functional water supply system.
+                    </p>
+                </article>
+                <article class="card col">
+                    <h4 class="dark">Drilling & Casing Installation.</h4>
+                    <p class="font-color">
+                        Installing drilling casing as the hole is drilled helps to stabilize loose, or unpredictable formations, and shore up the hole.
+                    </p>
+                </article>
+                <article class="card col">
+                    <h4 class="dark">Hydro Geological Survey</h4>
+                    <p class="font-color">
+                        Enkare Drilling Ltd perfoms geological assessments that focuses on groundwater resources, including their location, depth, quality, and potential for sustainable use.
+                </article>
+                <article class="card col">
+                    <h4 class="dark">Flushing</h4>
+                    <p class="font-color">
+                        Cleaning a borehole by removing debris, cuttings, and drilling fluids to improve water flow and prevent contamination.
+                    </p>
+                </article>
+                <article class="card col">
+                    <h4 class="dark">Pump Installation</h4>
+                    <p class="font-color">
+                    It includes assessing the borehole, selecting the appropriate pump, and ensuring proper installation and maintenance.
+                    </p>
+                </article>
+                <article class="card col">
+                    <h4 class="dark">Test Pumping</h4>
+                    <p class="font-color">
+                        Enkare Drilling Ltd a crucial assesses the yield and sustainability of a new or existing borehole, helping to determine the optimal pumping rate and assess the impact on surrounding groundwater resources.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <!--Explore-->
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>Call To Action</h1>
+            <div class="line"></div>
+            <p>
+                Ready to get started? Request a free quotation from Enkare Drilling Ltd.
+            </p>
+            <a href="#" class="ctn">Request Free Quote</a>
+        </div>
+    </section>
+    <!--Explore-->
+
+<!--Events-->
+<section class="events" id="events">
+    <div class="container">
+        <div class="title">
+            <h1 class="dark">Pro Tip & Guidelines For Clients.</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <article class="card col">
+                <p class="font-color">
+              ✅️  Avoid AGENTS.
+              <br>
+              ✅️  Seeing the rig & rig owner before committing to the job.
+              <br>
+              ✅️ Making sure the client has someone in the ground while drilling, casing installation & flushing to ensure borehole is drilled to the required depth.
+              <br>
+              ✅️  Ensuring client & contractor have an agreement in place before mobilizing rig.
+              <br>
+              ✅️  Ensuring test pumping is done for a comprehensive 24 hours so that contractor can advise on the yield and pump to be used i.e solar, electrical or handpump.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+    <!-- About -->
+    <section id="work">
+        <div class="title">
+            <h1 class="font-color">Our Work</h1>
+            <div class="line"></div>
+        </div>
+        <br />
+        <div id="about_us">
+            <div class="boxx">
+                <div class="containerx">
+                    <input type="radio" name="slider" id="item-1" checked />
+                    <input type="radio" name="slider" id="item-2" />
+                    <input type="radio" name="slider" id="item-3" />
+                    <div class="cards">
+                        <label class="cardt" for="item-1" id="col-img-1">
+                            <img src="./img/work-2.jpg" />
+                        </label>
+                        <label class="cardt" for="item-2" id="col-img-2">
+                            <img src="./img/work-1.jpg" />
+                        </label>
+                        <label class="cardt" for="item-3" id="col-img-3">
+                            <img src="./img/work-6.jpg" />
+                        </label>
+                        <label class="cardt" for="item-3" id="col-img-3">
+                            <img src="./img/work-4.jpg" />
+                        </label>
+
+                    </div>
+                </div>
+                <span id="about-quad"><a href="#home">
+                        <center>
+                            <h1 style="
+                                        font-family: var(--ff-montserrat);
+                                        color: white;
+                                    ">
+                                Find that
+                            </h1>
+                            <br />
+                            <img class="img2" src="./img/mountain_dark.jpg" width="200" style="border-radius: 12%" />
+                            <br />
+                            <h1 class="logo" style="font-size: 50px">
+                                Enkare
+                            </h1>
+                        </center>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    
+
+    <!--Events-->
+    <section class="events" id="pros">
+        <div class="container">
+            <div class="title">
+                <h1 class="dark">PROS & CONS OF BOREHOLE DRILLING</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <article class="card col">
+                    <h4 class="dark">Pros</h4>
+                    <p class="font-color">
+                  ✅️ Reliable Water Supply - Boreholes can provide a dependable and continuous supply of water, especially in areas with limited access to mains water or water scarcity.
+                  <br>
+                  ✅️ Long-Term Savings - borehole water can be cheaper than relying on mains water bills and may also reduce reliance on expensive water trucks.
+                  <br>
+                  ✅️ Increased Property Value - Having a borehole can be seen as a desirable feature, potentially increasing the market value of a property.
+                  <br>
+                  ✅️ Water Quality - Borehole water often has less microbial contamination than open wells, as it has filtered through more rock layers.
+                    </p>
+                </article>
+                <article class="card col">
+                    <h4 class="dark">Cons</h4>
+                    <p class="font-color">
+                    ❌ Depth and Drilling Methods - The depth and type of drilling method used will influence the cost and effectiveness of the borehole.
+                    <br>
+                    ❌ Maintenance Responsibilities - Boreholes require regular maintenance, including pump maintenance and potential repairs, which can incur ongoing costs
+                    <br>
+                    ❌ High Initial Costs - Drilling a borehole can be a significant upfront investment
+                    <br>
+                    ❌ Environmental Impact - Drilling a borehole can have environmental impacts, such as disrupting soil and potentially affecting groundwater resources.
+                    <br>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="title">
+            <h1 class="font-color">Contact Us</h1>
+            <div class="line"></div>
+        </div>
+        <div class="contact_us">
+            <div class="cbox">
+                <div>
+                    <p class="cbox-message">
+                        Get in touch with us today!<br />
+                    </p>
+                    <div class="cbox-line"></div>
+                </div>
+                <div class="c_boxx">
+                    <a href="mailto:enkaredrilling@gmail.com"><i class="fa fa-envelope"></i>
+                        enkaredrilling@gmail.com
+                    </a>
+                </div>
+                <div class="c_boxx">
+                    <a href="tel:+254723855827"><i class="fa fa-phone"></i>
+                        0723 855827
+                    </a>
+                </div>
+                <div class="c_boxx">
+                    <a href="#"><i class="fa fa-map-marker"></i>
+                        Gateway Mall, Syokimau, Mlolongo, Nairobi, Mombasa, Kenya.
+                    </a>
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6872864152974!2d36.90952217496568!3d-1.3642976986227844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0d0293534fbf%3A0xf27b0a93f0bd31cd!2sENKARE%20DRILLING%20LIMITED!5e0!3m2!1sen!2ske!4v1747380105866!5m2!1sen!2ske"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- contact  -->
+    <!-- up scroll -->
+    <!-- end -->
+    <!--footer-->
+    <section class="footer">
+        <span> &#169;2025 Enkare Drilling Ltd | Developed By Eyern</span>
+        <div class="social">
+            <li>
+                <a href="https://www.instagram.com/enkaredrilling/" target="_blank" rel="noreferrer"><i
+                        class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/p/Enkare-Drilling-Limited-100064005161006/" target="_blank" rel="noreferrer"><i
+                        class="fa fa-facebook"></i></a>
+                <a href="https://x.com/enkaredrilling/" target="_blank" rel="noreferrer"><i
+                        class="fa fa-twitter"></i></a>
+            </li>
+        </div>
+    </section>
+    <!--footer-->
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".nav-links");
+
+        menuBtn.addEventListener("click", () => {
+            navlinks.classList.toggle("mobile-menu");
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?79086';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+        "enabled":true,
+        "chatButtonSetting":{
+            "backgroundColor":"#000000",
+            "ctaText":"Message Enkare 👋 ",
+            "borderRadius":"25",
+            "marginLeft": "0",
+            "marginRight": "20",
+            "marginBottom": "20",
+            "ctaIconWATI":true,
+            "position":"right"
+        },
+        "brandSetting":{
+            "brandName":"Enkare Drilling Ltd",
+            "brandSubTitle":"undefined",
+            "brandImg":"https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
+            "welcomeText":"Hi there!\nHow can we  help you today?",
+            "messageText":"",
+            "backgroundColor":"#000000",
+            "ctaText":"Message Enkare",
+            "borderRadius":"25",
+            "autoShow":false,
+            "phoneNumber":"254723855827"
+        }
+        };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
+
+</body>
+
+</html>
